@@ -1,0 +1,16 @@
+Package: biologerR
+Title: Biologer Data Access Client
+Version: 0.1.1
+Authors@R: 
+    person("Your", "Name", email = "your@email.com", role = c("aut", "cre"))
+Description: Client for accessing Biologer observation data through their API.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    httr,
+    jsonlite,
+    dplyr,
+    readr,
+    sf, 
+    ggplot2
+RoxygenNote: 7.3.2
